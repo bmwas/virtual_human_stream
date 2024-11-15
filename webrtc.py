@@ -6,7 +6,8 @@ from typing import Tuple, Union
 from fractions import Fraction
 
 import numpy as np
-from av import AudioFrame, Frame
+from av import AudioFrame
+from av.frame import Frame
 from aiortc import MediaStreamTrack
 
 # Configure logging
